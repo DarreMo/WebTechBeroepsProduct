@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+nav{
+    background: #d60d42;
+    display: flex;
+    justify-content: space-between;
+}
+
+brand{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    max-height: 100px
+}
+
+.menu {
+    display: flex;
+}
+
+a{
+    align-content: center center     ;
+    text-decoration: none;
+    padding: 1em;
+    border: 1px solid slateblue;
+    background-color: #d6240d;
+}   
