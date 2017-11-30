@@ -51,7 +51,7 @@ h1{
 
 .poster img{
     
-    align-content: center;
+    align-content: space-between;
     margin: 10px;
     max-height: 250px;
 }
