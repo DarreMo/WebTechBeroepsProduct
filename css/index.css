@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 body{
@@ -14,54 +14,62 @@ nav{
     justify-content: space-between;
 }
 
-brand{
-    display: flex;
+.brand{
     flex-direction: row;
 }
 
 .logo{
-    max-height: 100px
+    max-height: 100px;
 }
 
 .menu {
-    display: flex;
+    align-items: center;
 }
 
 a{
-    align-content: center center     ;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
     padding: 1em;
     border: 1px solid slateblue;
-    background-color: #d6240d;
 }
 
 h1{
     max-height: 50px;
+    max-width: 750px;
 }
 
 .content{
-
-    margin: 40px;
-    display: flex;
-    justify-content: space-between;
-
+    display: block;
+    margin: 25px;
+    
+    flex-wrap: wrap;
+    
     text-decoration: wavy;
     text-decoration-color: #d60d42;
 }
 
-.poster img{
-    flex-direction: row;
-    align-content: space-between;
+.free-vid{
+    display: block;
+    float: left;
+}
+
+.poster-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.poster-box img{
     margin: 10px;
     max-height: 250px;
+
 }
 
 .sidebar{
-    border: 5px;
+    float: right;
     border-color: slateblue;
     background-color: #d60d42;
     max-width: 250px;
-   
 }
 
 .advert {
@@ -73,4 +81,8 @@ h1{
     max-height: 100px;
     background-color: black;
     border: 5px;
+}
+
+.sub-offer {
+    float: below;
 }
