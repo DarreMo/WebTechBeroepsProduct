@@ -1,14 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-
+    
 }
 
 body{
-    background: black;
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
 }
 
 nav{
+    max-height: 100px;
     background: #d60d42;
     display: flex;
     justify-content: space-between;
@@ -16,6 +20,11 @@ nav{
 
 .brand{
     flex-direction: row;
+}
+
+.brand a{
+    text-decoration: none;
+    color: black;
 }
 
 .logo{
@@ -26,7 +35,7 @@ nav{
     align-items: center;
 }
 
-a{
+.menu a{
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
@@ -34,55 +43,59 @@ a{
     border: 1px solid slateblue;
 }
 
-h1{
-    max-height: 50px;
-    max-width: 750px;
-}
-
 .content{
-    display: block;
+    display: flex;
     margin: 25px;
-    
-    flex-wrap: wrap;
-    
+
+    flex-direction: row; 
+    justify-content: space-around; 
     text-decoration: wavy;
     text-decoration-color: #d60d42;
 }
 
+.vid-offer {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
 .free-vid{
-    display: block;
     float: left;
 }
 
+.free-vid h1{
+    color: red;
+    max-height: 35px;
+}
+
 .poster-box{
-    display: flex;
+    background-color: #d60d42;
     justify-content: space-between;
 }
 
-.poster-box img{
-    margin: 10px;
-    max-height: 250px;
-
+.poster-box-list{
+    display: flex;
+    background-color: #d60d42;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.sidebar{
+.poster-box img{
+    margin: 15px;
+    max-height: 250px;
+}
+
+.advert{
+    margin-top: 35px;
+    flex-direction: column;
     float: right;
     border-color: slateblue;
     background-color: #d60d42;
     max-width: 250px;
 }
 
-.advert {
-    block-size: 250px;
-}
-
-.advert-header {
-    size: 100px 100px;
-    max-height: 100px;
-    background-color: black;
-    border: 5px;
-}
-
-.sub-offer {
-    float: below;
+.poster-row-one img,.poster-row-two img,.poster-row-three img,.poster-row-four  img{
+    margin: 15px;
+    max-height: 250px;
 }
