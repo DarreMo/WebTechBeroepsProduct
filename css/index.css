@@ -81,12 +81,8 @@ nav{
     flex-direction: column;
 }
 
-.poster-box img{
-    margin: 15px;
-    max-height: 250px;
-}
-
 .advert{
+    align-content: space-between;
     margin-top: 35px;
     flex-direction: column;
     float: right;
@@ -95,7 +91,8 @@ nav{
     max-width: 250px;
 }
 
-.poster-row-one img,.poster-row-two img,.poster-row-three img,.poster-row-four  img{
-    margin: 15px;
-    max-height: 250px;
+.poster img{
+    margin: 5px;
+    height: 320px;;
+    width: 200px;
 }
