@@ -1,84 +1,111 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 body{
-    background: url(../img/background.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/Anime-Background.jpg);
+    background-repeat: no-repeat;  
     background-attachment: fixed;
-    background-color: black;
+    background-position: center;
 }
 
 nav{
-    max-height: 100px;
     background: #d60d42;
     display: flex;
     justify-content: space-between;
 }
 
-.brand{
+brand{
+    display: flex;
     flex-direction: row;
 }
 
-.brand a{
-    text-decoration: none;
-    color: black;
-}
-
 .logo{
-    max-height: 100px;
+    max-height: 100px
 }
 
 .menu {
-    align-items: center;
+    display: flex;
 }
 
-.menu a{
+a{
+    align-content: center center;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
     padding: 1em;
     border: 1px solid slateblue;
+    background-color: #d6240d;
+}
+
+h1{
+    max-height: 50px;
 }
 
 .content{
-    display: flex;
-    margin: 25px;
 
-    flex-direction: row; 
-    justify-content: space-around; 
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+
     text-decoration: wavy;
     text-decoration-color: #d60d42;
 }
 
-.vid-offer {
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-around;
+.poster img{
+    
+    align-content: center;
+    margin: 10px;
+    max-height: 250px;
 }
 
-.free-vid{
-    float: left;
-}
-
-.free-vid h1{
-    color: red;
-    max-height: 35px;
-}
-
-.poster-box{
+.sidebar{
+    border: 5px;
+    border-color: slateblue;
     background-color: #d60d42;
-    justify-content: space-between;
+    max-width: 250px;
+   
 }
 
-.poster-box-list{
+.advert {
+    block-size: 250px;
+}
+
+.advert-header {
+    size: 100px 100px;
+    max-height: 100px;
+    background-color: black;
+    border: 5px;
+}
+
+.About-us {
     display: flex;
+    justify-content: center;
+    max-width: 750px;
+    margin: 100px;
+    border: 5px;
+    border-color: slateblue;
     background-color: #d60d42;
-    justify-content: space-between;
-    flex-direction: column;
+}
+
+
+.About-us-Textbox{
+    justify-content: center;
+    max-width: 750px;
+}
+
+.About-us-Header{
+    size: 100px 100px;
+    background-color: black;
+    max-height: 100px;
+    border: 5px;
+}
+ 
+.Login{
+    height: 300px;
+    width: 500px; 
+    margin: 100px;
+    border: 5px;
 }
 
 .advert{
@@ -86,9 +113,46 @@ nav{
     margin-top: 35px;
     flex-direction: column;
     float: right;
+
     border-color: slateblue;
     background-color: #d60d42;
+}
+
+.Username{
+    margin: 50px;
+    font-size: 25px;
+    background-color:black;
     max-width: 250px;
+    border: 5px;
+}
+
+
+.Password{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    background-color:black;
+    max-width: 250px;
+    border: 5px;
+}
+
+.Login-box{
+    font-size: 25px;
+}
+
+.Registreren{
+    margin-top: 5px;
+    margin-left: 55px;
+    font-size: 10px;
+}
+
+.Login-knop{
+   margin-left: 375px;
+   margin-top: 25px;
+   font-size: 25px; 
+   background-color:black;
+   max-width: 75px;
+   border: 5px;
 }
 
 .poster img{

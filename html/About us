@@ -1,0 +1,27 @@
+<doctype html>
+<html lang ="en">
+<head>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" type="image/svg" href="../img/logo.svg">
+    <title>WeebFlix</title>
+</head>
+
+<body>
+ <nav class = "nav" id="navigation">
+        <div class = "brand">
+            <img src= "../img/logo.svg" alter="WeebFlix Logo" class = "logo">
+            <font size= "10"> WeebFlix </font>
+        </div>
+        
+        <div class = "menu">
+            <a href= "watch">Start Watching ▼</a>
+            <a href="about">About Us ▼</a>
+            <a href="login">Login ▼</a>
+        </div>
+    </nav>
+
+    <div class = "About us">
+    <p>Hodor, hodor hodor?! Hodor hodor HODOR! Hodor hodor... Hodor hodor HODOR hodor, hodor hodor hodor hodor?! Hodor, hodor - hodor - hodor? Hodor hodor - hodor hodor, hodor. Hodor hodor. Hodor. Hodor, hodor, hodor. Hodor hodor hodor hodor hodor?! Hodor, hodor hodor hodor. Hodor hodor HODOR! Hodor HODOR hodor, hodor HODOR hodor, hodor hodor - hodor... Hodor hodor hodor? Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor. Hodor hodor, hodor. Hodor hodor? Hodor, hodor; hodor hodor hodor hodor hodor hodor. Hodor.</p>
+</body>
+</html>
