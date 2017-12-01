@@ -88,6 +88,7 @@ h1{
     background-color: #d60d42;
 }
 
+
 .About-us-Textbox{
     justify-content: center;
     max-width: 750px;
@@ -105,6 +106,14 @@ h1{
     width: 500px; 
     margin: 100px;
     border: 5px;
+}
+
+.advert{
+    align-content: space-between;
+    margin-top: 35px;
+    flex-direction: column;
+    float: right;
+
     border-color: slateblue;
     background-color: #d60d42;
 }
@@ -116,6 +125,7 @@ h1{
     max-width: 250px;
     border: 5px;
 }
+
 
 .Password{
     margin-top: 50px;
@@ -143,4 +153,10 @@ h1{
    background-color:black;
    max-width: 75px;
    border: 5px;
+}
+
+.poster img{
+    margin: 5px;
+    height: 320px;;
+    width: 200px;
 }
